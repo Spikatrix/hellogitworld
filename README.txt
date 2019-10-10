@@ -1,3 +1,7 @@
+**I use this as a sample repo for testing out stuff**
+
+<hr>
+
 This is a sample project students can use during Matthew's Git class.
 
 Here is an addition by me
