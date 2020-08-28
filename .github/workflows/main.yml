@@ -42,4 +42,3 @@ jobs:
           tag: test-tags
           overwrite: true
           prerelease: true
-          body: "Testing stuff 2. Nvm this"
