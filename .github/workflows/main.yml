@@ -42,3 +42,11 @@ jobs:
           tag: test-tags
           overwrite: true
           prerelease: true
+
+      - name: Tag and release deleter
+      - uses: dev-drprasad/delete-tag-and-release@v0.1.2
+        with:
+          delete_release: true
+          tag_name: test-tags
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
